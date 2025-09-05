@@ -2,6 +2,8 @@ import express, {Request, Response, Application} from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
+import { PORT } from "./config";
+
 
 
 dotenv.config();
